@@ -20,7 +20,7 @@ public class Greeter {
     String language = args[3];
     String country = args[1];
     String name = args[2];
-    Greeter greeter = new Greeter(language, country, name.toUpperCase());
+    Greeter greeter = new Greeter(language, country, name.toUpperCase()+“123”);
     System.out.println(greeter.sayHello());
   }
 }
